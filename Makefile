@@ -10,6 +10,10 @@ m1-gendev-0.4.0:
 	brew uninstall m1-gendev-0.4.0
 	brew install m1-gendev-0.4.0 --build-bottle
 	brew bottle --root-url https://github.com/hsk/brew-bottle/raw/main hsk/m1/m1-gendev-0.4.0
+m1-gendev-0.4.1:
+	brew uninstall m1-gendev-0.4.1
+	brew install m1-gendev-0.4.1 --build-bottle
+	brew bottle --root-url https://github.com/hsk/brew-bottle/raw/main hsk/m1/m1-gendev-0.4.1
 push:
 	git add *.tar.gz
 	git commit -a
